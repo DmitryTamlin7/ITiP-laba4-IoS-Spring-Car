@@ -23,4 +23,10 @@ public class Toyota implements Car {
     public double  getEngineVolume(){
         return 4.8;
     }
+
+    @Override
+    public String PlaceSell(){
+        return "Avto.ru";
+    }
+
 }

@@ -24,4 +24,9 @@ public class BMW implements Car {
         return 3.0;
     }
 
+    @Override
+    public String PlaceSell(){
+        return "Avito";
+    }
+
 }
