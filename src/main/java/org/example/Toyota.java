@@ -13,4 +13,14 @@ public class Toyota implements Car {
     public double getPrice() {
         return 20000.0;
     }
+
+    @Override
+    public int getYears() {
+        return 2008;
+    }
+
+    @Override
+    public double  getEngineVolume(){
+        return 4.8;
+    }
 }

@@ -14,7 +14,10 @@ public class Dealer {
     }
 
     public void printModel(){
-        System.out.println("Car model: " + car.getModel() + " Car Price $: " + car.getPrice());
+        System.out.println(" Car model: " + car.getModel() +
+                           " CarYears: " + car.getYears() +
+                           " EngineVolume " + car.getEngineVolume() +
+                           " Car Price $: " + car.getPrice() );
     }
 }
 

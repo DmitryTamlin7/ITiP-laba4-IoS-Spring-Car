@@ -13,4 +13,15 @@ public class BMW implements Car {
     public double getPrice() {
         return 15000;
     }
+
+    @Override
+    public int getYears() {
+        return 2010;
+    }
+
+    @Override
+    public double  getEngineVolume(){
+        return 3.0;
+    }
+
 }

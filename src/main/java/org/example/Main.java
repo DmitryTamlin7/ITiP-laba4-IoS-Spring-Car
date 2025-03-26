@@ -17,7 +17,7 @@ public class Main {
             Dealer dealer = new Dealer(entry.getValue());
             dealer.printModel();
 
-            System.out.println("//////////////////////////////////////////");
+            System.out.println("//////////////////////////////////////////////////////////////////////////");
 
         }
 
