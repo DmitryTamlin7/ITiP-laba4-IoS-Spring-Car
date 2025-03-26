@@ -23,4 +23,9 @@ public class Mersedes implements Car {
     public double  getEngineVolume(){
         return 4.4;
     }
+    @Override
+    public String PlaceSell(){
+        return "Avito";
+    }
+
 }

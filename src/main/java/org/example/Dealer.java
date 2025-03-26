@@ -17,7 +17,8 @@ public class Dealer {
         System.out.println(" Car model: " + car.getModel() +
                            " CarYears: " + car.getYears() +
                            " EngineVolume " + car.getEngineVolume() +
-                           " Car Price $: " + car.getPrice() );
+                           " Car Price $: " + car.getPrice() +
+                           " SellPlace: " + car.PlaceSell() );
     }
 }
 

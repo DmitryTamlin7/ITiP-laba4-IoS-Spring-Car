@@ -5,4 +5,5 @@ public interface Car {
     double getPrice();
     int getYears();
     double getEngineVolume();
+    String PlaceSell();
 }
